@@ -1,4 +1,5 @@
 {
+  "homepage": "https://murilonerdx.github.io/water-reminder",
   "name": "waterreminder",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":  "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-progress": "^1.1.1",

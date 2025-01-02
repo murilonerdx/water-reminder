@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     // other options...
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node16",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
